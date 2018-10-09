@@ -44,10 +44,10 @@ public class RockPaperScissor {
 
             } while ((compPoints < 21) && (playPoints < 21));
             if (compPoints >= 21){
-                System.out.println("Computer wins!");
+                System.out.println("Computer won the game!");
             }
             if (playPoints >= 21){
-                System.out.println("You win!");
+                System.out.println("You won the game!");
             }
             System.out.println("Would you like to play again?(only type yes or no)");
             answer = input.next();
