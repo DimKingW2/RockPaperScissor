@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.util.Random;
 
 public class RockPaperScissor {
     public static void main(String[] arg) {
@@ -18,16 +18,10 @@ public class RockPaperScissor {
             compPoints = 0;
             playPoints = 0;
             do {
-                int number = (int) (Math.random() * 9);
-                if (number <= 3) {
-                    computer = "r";
-                }
-                if ((4 <= number) && (number <= 6)) {
-                    computer = "s";
-                }
-                if ((7 <= number) && (number <= 9)) {
-                    computer = "p";
-                }
+                String[] arr= {"r","p","s"};
+                Random r = new Random();
+                int randomNumber = r.nextInt(arr.length);
+                computer =(arr[randomNumber]);
                 System.out.println("Please pick R for rock, P for paper, or S for scissor.");
                 player = input.next().toLowerCase();
                 while ((!player.equals("r")) && (!player.equals("s")) && (!player.equals("p"))) {
@@ -56,7 +50,7 @@ public class RockPaperScissor {
                 System.out.println("You win!");
             }
             System.out.println("Would you like to play again?(only type yes or no)");
-            answer = input.nextLine();
+            answer = input.next();
 
         }while(answer.equals("yes"));
 
