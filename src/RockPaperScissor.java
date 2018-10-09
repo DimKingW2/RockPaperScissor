@@ -31,14 +31,14 @@ public class RockPaperScissor {
                 System.out.println("Computer played " + computer + "!");
                 if (player.equals(computer)) {
                     System.out.println("It is a tie");
-                    compPoints = compPoints + 1;
-                    playPoints = playPoints + 1;
+                    compPoints += 1;
+                    playPoints += 1;
                 } else if ((player.equals("r")) && (computer.equals("s")) || (player.equals("s")) && (computer.equals("p")) || (player.equals("p")) && (computer.equals("r"))) {
                     System.out.println("You win!");
-                    playPoints = playPoints + 3;
+                    playPoints += 3;
                 } else {
-                    System.out.println("You loose!");
-                    compPoints = compPoints + 3;
+                    System.out.println("You lose!");
+                    compPoints += 3;
                 }
                 System.out.println("The score is " + playPoints + " to " + compPoints);
 
@@ -46,7 +46,7 @@ public class RockPaperScissor {
             if (compPoints >= 21){
                 System.out.println("Computer won the game!");
             }
-            if (playPoints >= 21){
+            else {
                 System.out.println("You won the game!");
             }
             System.out.println("Would you like to play again?(only type yes or no)");
