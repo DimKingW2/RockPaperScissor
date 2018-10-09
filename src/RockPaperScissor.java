@@ -4,7 +4,7 @@ import java.util.Random;
 public class RockPaperScissor {
     public static void main(String[] arg) {
         Scanner input;
-        String computer = "";
+        String computer;
         String player;
         int compPoints;
         int playPoints;
@@ -18,7 +18,7 @@ public class RockPaperScissor {
             compPoints = 0;
             playPoints = 0;
             do {
-                String[] arr= {"r","p","s"};
+                String[] arr = {"r","p","s"};
                 Random r = new Random();
                 int randomNumber = r.nextInt(arr.length);
                 computer =(arr[randomNumber]);
@@ -53,10 +53,11 @@ public class RockPaperScissor {
             answer = input.next();
 
         }while(answer.equals("yes"));
-
-
-
-
+        if (!answer.equals("yes")){
+            System.out.println("Ok then.");
+            input.close();
+            System.exit(0);
+        }
 
 
     }

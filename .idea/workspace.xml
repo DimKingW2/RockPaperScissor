@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66df4d76-5bf4-48c3-8f3d-a1c891d3c613" name="Default" comment="" />
+    <list default="true" id="66df4d76-5bf4-48c3-8f3d-a1c891d3c613" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/RockPaperScissor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RockPaperScissor.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +37,8 @@
       <file leaf-file-name="RockPaperScissor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RockPaperScissor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="-11">
+              <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,9 +66,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="730" />
+    <option name="x" value="809" />
+    <option name="y" value="20" />
+    <option name="width" value="547" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -95,7 +98,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NumberGuessing" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -237,8 +240,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RockPaperScissor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="-11">
+          <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
