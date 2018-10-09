@@ -30,11 +30,11 @@ public class RockPaperScissor {
                 }
                 System.out.println("Please pick R for rock, P for paper, or S for scissor.");
                 player = input.next().toLowerCase();
-                System.out.println("Computer played " + computer + "!");
                 while ((!player.equals("r")) && (!player.equals("s")) && (!player.equals("p"))) {
                     System.out.println("Please only type R, S, or P.");
                     player = input.next().toLowerCase();
                 }
+                System.out.println("Computer played " + computer + "!");
                 if (player.equals(computer)) {
                     System.out.println("It is a tie");
                     compPoints = compPoints + 1;
@@ -48,7 +48,7 @@ public class RockPaperScissor {
                 }
                 System.out.println("The score is " + playPoints + " to " + compPoints);
 
-            } while ((compPoints < 21) || (playPoints < 21));
+            } while ((compPoints < 21) && (playPoints < 21));
             if (compPoints >= 21){
                 System.out.println("Computer wins!");
             }
